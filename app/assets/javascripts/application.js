@@ -11,11 +11,9 @@
 // about supported directives.
 //
 //= require jquery
-//= require jquery_ujs
 //= require bootstrap.min.js
 //= require classie.js
 //= require cbpAnimatedHeader.min.js
 //= require agency.js
 //= require turbolinks
-//= require_tree
 
