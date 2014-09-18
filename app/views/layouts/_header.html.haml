@@ -1,32 +1,21 @@
-%div{ :class => 'navbar navbar-default navbar-static-top', :role => 'navigation' }
-  %div{ :class => 'container' }
-    %div{ :class => 'navbar-header' }
-      %button{ :type => 'button', :class => 'navbar-toggle', 'data-toggle' => 'collapse', 'data-target' => 'navbar-collapse' }
-        %span{ :class => 'sr-only' } Toggle navigation
-      %a{ :class => 'navbar-brand', :href => '#' } TOYM
+%nav{ :class => "navbar navbar-default navbar-fixed-top" }
+  %div{ :class => "container" }
+    %div{ :class => "navbar-header page-scroll" }
+      %button{ :type => "button", :class => "navbar-toggle", "data-toggle" => "collapse", "data-target" => "#bs-example-navbar-collapse-1" }
+        %span{ :class => "sr-only" } Toggle navigation
+        %span{ :class => "icon-bar" }
+        %span{ :class =>"icon-bar" }
+        %span{ :class => "icon-bar" }
+      %a{ :class => "navbar-brand page-scroll", :href => "#page-top" } TOYM Philippines
 
-    %div{ :class => 'navbar-collapse collapse' }
-      %ul{ :class => 'nav navbar-nav' }
-        %li{ :class => 'active' }
-          %a{ :href => '#' } Home
+    %div{ :class => "collapse navbar-collapse", :id => "bs-example-navbar-collapse-1" }
+      %ul{ :class => "nav navbar-nav navbar-right" }
+        %li{ :class => "hidden" }
+          %a{ :href => "#page-top" }
         %li
-          %a{ :href => '#' } About
+          %a{ :class => "page-scroll", :href => "#services" } Services
         %li
-          %a{ :href => '#' } Contact
-
-      %ul{ :class => 'nav navbar-nav navbar-right' }
+          %a{ :class => "page-scroll", :href => "#portfolio" } Portfolio
         %li
-          %a{ :href => '../navbar/' } Default
+          %a{ :class => "page-scroll", :href => "#about" } About
 
-
-%div{ :class => 'container' }
-  %div{ :class => 'jumbotron' }
-    %h3 Welcome to the official website of the Top Outstanding Young Men of the Philippines
-
-    %p For the past 51 years, the Junior Chamber International-Philippines has undertaken the search for The Outstanding Young Men of the Philippines, a select elite group of individuals who have shown selfless dedication for their work, passion for excellence and compassion towards the communities they belong.
-
-    %p Through the years, the TOYM has established itself as the Philippines’ most prestigious awards search for young men and women between ages eighteen to forty.
-
-    %p This year’s TOYM continues the search and carries the theme “Heroes Create Heroes”. We are calling on the heroes of our lifetimes; heroes in our community…because we need more of them to affect positive change… because would be heroes need their heroes too.
-    
-    %a{ :href => 'about', :class => 'btn btn-lg btn-primary', :role => 'button' } ...Read more
