@@ -10,25 +10,65 @@
     %div{ :class => "intro-text" }
       %div{ :class => "intro-lead-in" } Welcome To The Official Website of
       %div{ :class => "intro-heading" } TOYM Philippines
-      %a{ :href => "#services", :class => "page-scroll btn btn-xl" } Download Nomination Form
+      %a{ :href => "#download", :class => "page-scroll btn btn-xl" } Download Nomination Form
 
 
 <!-- About Section -->
 %section{ :id => "about" }
   %div{ :class => "container" }
-    %div{ :class => "col-lg-12 text-center" }
-      %h2{ :class => "section-heading" } About
-      %h3{ :class => "section-subheading text-muted" } Our History
+    %div{ :class => "row" }
+      %div{ :class => "col-lg-12 text-center" }
+        %h2{ :class => "section-heading" } About
+        %h3{ :class => "section-subheading text-muted" } Our History
 
-      %p
-        The Outstanding Young Men (TOYM) Awards was initiated by the Manila Jaycees as a chapter project in April 6, 1959. Subsequently, the Philippine Jaycees formally adopted the project on a national basis on October 15, 1959, during their 11th National Convention in Baguio City.
-      %p
-        In 1973, the Gerry Roxas Foundation co-sponsored the project, due to the similarity of its goal to promote leadership and exemplary innovation among the youth to address our nation’s development. On October 22, 1990, the TOYM Foundation was organized by past TOYM Awardees and Jaycee National Officers to provide support and continuity for the annual search.
-      %p
-        In 1996, the TOYM Awards was changed to TOYF “The Outstanding Young Filipinos” to give women equal exposure and emphasis in the search. However, women were already made an integral part of the search since 1984. In 1999, the name was reverted back to its original name of TOYM to preserve the sanctity of the awards, as the word “men “ does not intend to distinguish the difference in gender.
-      %p
-        Over the years, the TOYM has become an institution, having developed a reputation for its selectiveness of outstanding young men upon whom the awards is conferred. TOYM seeks to give national recognition to young men and women between the ages of 18-40, whose selfless dedication to their profession or vocation has resulted in significant contributions to the welfare of their countrymen, as well as to the advancement of their fields of endeavor.
+        %p
+          The Outstanding Young Men (TOYM) Awards was initiated by the Manila Jaycees as a chapter project in April 6, 1959. Subsequently, the Philippine Jaycees formally adopted the project on a national basis on October 15, 1959, during their 11th National Convention in Baguio City.
+        %p
+          In 1973, the Gerry Roxas Foundation co-sponsored the project, due to the similarity of its goal to promote leadership and exemplary innovation among the youth to address our nation’s development. On October 22, 1990, the TOYM Foundation was organized by past TOYM Awardees and Jaycee National Officers to provide support and continuity for the annual search.
+        %p
+          In 1996, the TOYM Awards was changed to TOYF “The Outstanding Young Filipinos” to give women equal exposure and emphasis in the search. However, women were already made an integral part of the search since 1984. In 1999, the name was reverted back to its original name of TOYM to preserve the sanctity of the awards, as the word “men “ does not intend to distinguish the difference in gender.
+        %p
+          Over the years, the TOYM has become an institution, having developed a reputation for its selectiveness of outstanding young men upon whom the awards is conferred. TOYM seeks to give national recognition to young men and women between the ages of 18-40, whose selfless dedication to their profession or vocation has resulted in significant contributions to the welfare of their countrymen, as well as to the advancement of their fields of endeavor.
 
 
+<!-- Contact Section -->
+%section{ :id => "contact" }
+  %div{ :class => "container" }
+    %div{ :class => "row" }
+      %div{ :class => "col-lg-12 text-center" }
+        %h2{ :class => "section-heading" } Contact
+        %h3{ :class => "section-subheading text-muted" } Drop us a line
+
+    %div{ :class => "row" }
+      %div{ :class => "col-lg-12" }
+        %ul{ :class => "timeline" }
+          %li
+            %div{ :class => "timeline-image" }
+              %img{ :class => "img-circle img-responsive", :src => "/assets/chairman_2014.jpg" }
+            %div{ :class => "timeline-panel", :style => "color:#FFFFFF;" }
+              %div{ :class => "timeline-heading" }
+                %h4 Atty. MARK LESTER MANALO
+                %h4{ :class => "subheading" } Chairman, 2014 - 2015
+              %div{ :class => "timeline-body" }
+                14 Don A. Roces Avenue, Quezon City 1103
+                %br
+                %br
+                toym2014@yahoo.com
+                %br
+                3737907-09
+                %br
+                3744138 
+
+
+<!-- Download Section -->
+%section{ :id => "download" }
+  %div{ :class => "container" }
+    %div{ :class => "row" }
+      %div{ :class => "col-lg-12 text-center" }
+        %h2{ :class => "section-heading" } Download
+        %h3{ :class => "section-subheading text-muted" } 2014 Nomination Form
+
+        %a{ :href => home_download_pdf_url }
+          %img{ :src => "/assets/downloaddisk_flat.png" }
 
 = render 'layouts/footer'

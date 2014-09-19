@@ -5,8 +5,9 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'home#index'
-
+  get "home/download_pdf"
   match '/template' => 'home#template', via: :get
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
